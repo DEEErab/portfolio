@@ -4,7 +4,7 @@ import { TechContainer } from "./techElements";
 export const Tech = () => {
   return (
     <>
-      <TechContainer></TechContainer>
+      <TechContainer id="tech"></TechContainer>
     </>
   );
 };

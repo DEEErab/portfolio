@@ -4,7 +4,7 @@ import { ContactContainer } from "./contactElements";
 export const Contact = () => {
   return (
     <>
-      <ContactContainer></ContactContainer>
+      <ContactContainer id="contact"></ContactContainer>
     </>
   );
 };

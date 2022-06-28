@@ -4,7 +4,7 @@ import { AboutContainer } from "./aboutElements";
 export const About = () => {
   return (
     <>
-      <AboutContainer></AboutContainer>
+      <AboutContainer id="about"></AboutContainer>
     </>
   );
 };

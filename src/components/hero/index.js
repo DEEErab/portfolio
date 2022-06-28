@@ -1,10 +1,22 @@
 import React from "react";
-import { HeroContainer } from "./heroElements";
+import {
+  HeroContainer,
+  HeroLogoTop,
+  HeroLogo,
+  HeroLogoB,
+  HeroLogoDev,
+} from "./heroElements";
 
 export const Hero = () => {
   return (
     <>
-      <HeroContainer></HeroContainer>
+      <HeroContainer>
+        <HeroLogo>
+          <HeroLogoTop>WE</HeroLogoTop>
+          <HeroLogoB>B</HeroLogoB>
+          <HeroLogoDev>DE_V</HeroLogoDev>
+        </HeroLogo>
+      </HeroContainer>
     </>
   );
 };
