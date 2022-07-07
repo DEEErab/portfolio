@@ -20,7 +20,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
           <MobileLink to="about" onClick={toggle}>
             ABOUT
           </MobileLink>
-          <MobileLink to="tech" offset={-100} onClick={toggle}>
+          <MobileLink to="tech" onClick={toggle}>
             TECH
           </MobileLink>
           <MobileLink to="work" onClick={toggle}>
@@ -29,8 +29,10 @@ const MobileMenu = ({ isOpen, toggle }) => {
           <MobileLink to="contact" onClick={toggle}>
             CONTACT
           </MobileLink>
+          <MobileLink to="home" onClick={toggle}>
+            HOME
+          </MobileLink>
         </MobileMenus>
-        <SideBtnWrap></SideBtnWrap>
       </MobileWrapper>
     </MobileContainer>
   );

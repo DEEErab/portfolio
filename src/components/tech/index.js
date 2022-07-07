@@ -1,10 +1,12 @@
 import React from "react";
-import { TechContainer } from "./techElements";
+import { TechContainer, TechH1 } from "./techElements";
 
 export const Tech = () => {
   return (
     <>
-      <TechContainer id="tech"></TechContainer>
+      <TechContainer id="tech">
+        <TechH1>TECH_</TechH1>
+      </TechContainer>
     </>
   );
 };

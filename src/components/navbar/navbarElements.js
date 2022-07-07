@@ -1,15 +1,22 @@
 import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 
-export const NavContainer = styled.div`
+export const Nav = styled.div`
   background: ${({ scrollNav }) => (scrollNav ? "#DD6E42" : "transparent")};
   display: flex;
   height: 3rem;
   width: 100vw;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 10;
   transition: 0.3s ease-in-out;
+`;
+
+export const NavContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  width: 100%;
 `;
 
 export const Logo = styled.p`

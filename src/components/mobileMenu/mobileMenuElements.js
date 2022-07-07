@@ -4,7 +4,7 @@ import { Link as LinkS } from "react-scroll";
 
 export const MobileContainer = styled.aside`
   position: fixed;
-  z-index: 999;
+  z-index: 1000;
   width: 100%;
   height: 100%;
   background: #dd6e42;
@@ -14,7 +14,7 @@ export const MobileContainer = styled.aside`
   left: 0;
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
-  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
+  top: ${({ isOpen }) => (isOpen ? "0" : "100%")};
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -40,9 +40,6 @@ export const MobileMenus = styled.ul`
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
   text-align: center;
-  @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
-  }
 `;
 
 export const MobileLink = styled(LinkS)`

@@ -1,10 +1,12 @@
 import React from "react";
-import { ContactContainer } from "./contactElements";
+import { ContactContainer, ContactH1 } from "./contactElements";
 
 export const Contact = () => {
   return (
     <>
-      <ContactContainer id="contact"></ContactContainer>
+      <ContactContainer id="contact">
+        <ContactH1>_CONTACT</ContactH1>
+      </ContactContainer>
     </>
   );
 };

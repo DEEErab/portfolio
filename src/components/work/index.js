@@ -1,10 +1,12 @@
 import React from "react";
-import { WorkContainer } from "./workElements";
+import { WorkContainer, WorkH1 } from "./workElements";
 
 export const Work = () => {
   return (
     <>
-      <WorkContainer id="work"></WorkContainer>
+      <WorkContainer id="work">
+        <WorkH1>_MY WORK</WorkH1>
+      </WorkContainer>
     </>
   );
 };
