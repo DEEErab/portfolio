@@ -7,7 +7,7 @@ export const TechContainer = styled.div`
 `;
 
 export const TechH1 = styled.h1`
-  padding-top: 30px;
+  padding-top: 50px;
   padding-left: 50px;
   color: white;
   font-size: 2rem;

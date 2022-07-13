@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-  height: 1500px;
+  height: 1200px;
   width: 100vw;
   background-color: #e8dab2;
-  margin-bottom: -200px;
 `;
 
 export const InfoTitle = styled.h1`
-  padding-top: 80px;
+  padding-top: 50px;
   margin-left: 70px;
   font-size: 2rem;
   color: white;
