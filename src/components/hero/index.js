@@ -25,7 +25,6 @@ export const Hero = () => {
           <LinkedInIcon src={linkedInLogo}></LinkedInIcon>
           <TwitterIcon src={twitterLogo}></TwitterIcon>
           <GithubIcon src={githubLogo}></GithubIcon>
-          <DiscordIcon src={discordLogo}></DiscordIcon>
         </Social>
       </HeroContainer>
     </>

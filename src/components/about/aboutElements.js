@@ -13,14 +13,14 @@ export const InfoTitle = styled.h1`
   color: white;
 `;
 
+export const InfoSection = styled.div`
+  display: flex;
+`;
+
 export const Info = styled.p`
   padding-top: 80px;
   margin-left: 50px;
   margin-right: 50px;
   font-size: 1.5rem;
   color: white;
-`;
-
-export const InfoSection = styled.div`
-  display: flex;
 `;
