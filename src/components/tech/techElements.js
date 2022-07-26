@@ -1,25 +1,39 @@
 import styled from "styled-components";
 
 export const TechContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 800px;
   width: 100vw;
   background-color: #c0d6df;
+
+  @media screen and (min-width: 1080px) {
+    height: 400px;
+  }
 `;
 
 export const TechH1 = styled.h1`
   padding-top: 50px;
-  padding-left: 50px;
+  margin-right: 100px;
   color: white;
   font-size: 2rem;
+
+  @media screen and (min-width: 1080px) {
+    margin-right: 600px;
+  }
 `;
 
 export const TechLogos = styled.div`
   display: grid;
   padding-top: 50px;
-  padding-left: 40px;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 20px;
+  grid-column-gap: 50px;
   grid-row-gap: 80px;
+
+  @media screen and (min-width: 1080px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
 `;
 
 export const JsIcon = styled.img``;

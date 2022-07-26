@@ -2,7 +2,6 @@ import React from "react";
 import linkedInLogo from "../../assets/social/linkedIn.svg";
 import twitterLogo from "../../assets/social/twitter.svg";
 import githubLogo from "../../assets/social/github.svg";
-import discordLogo from "../../assets/social/discord.svg";
 import {
   FooterContainer,
   Social,
@@ -12,8 +11,6 @@ import {
   TwitterIconLink,
   GithubIcon,
   GithubIconLink,
-  DiscordIcon,
-  DiscordIconLink,
   CopyRight,
 } from "./footerElements";
 

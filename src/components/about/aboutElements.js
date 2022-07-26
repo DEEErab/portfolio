@@ -4,6 +4,10 @@ export const InfoContainer = styled.div`
   height: 1200px;
   width: 100vw;
   background-color: #e8dab2;
+
+  @media screen and (min-width: 1080px) {
+    height: 500px;
+  }
 `;
 
 export const InfoTitle = styled.h1`

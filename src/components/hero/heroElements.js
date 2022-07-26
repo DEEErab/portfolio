@@ -7,12 +7,20 @@ export const HeroContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (min-width: 1080px) {
+    flex-direction: row;
+  }
 `;
 
 export const MobileHeroImg = styled.img`
   margin-top: 25vh;
-  margin-right: 10vh;
+  margin-right: 5vw;
   width: 70vw;
+
+  @media screen and (min-width: 1080px) {
+    max-width: 600px;
+  }
 `;
 
 export const NameTag = styled.h1`
@@ -24,25 +32,64 @@ export const NameTag = styled.h1`
 
 export const Social = styled.div`
   position: absolute;
-  bottom: 1vh;
+  right: 20px;
+  grid-template-columns: 1fr;
+  grid-row-gap: 40px;
   display: grid;
-  justify-content: end;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10vw;
+
+  @media screen and (max-width: 1080px) {
+    bottom: 1vh;
+    right: 25vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10vw;
+    justify-content: end;
+  }
 `;
 
 export const LinkedInIcon = styled.img`
-  width: 10vw;
+  width: 50px;
+
+  @media screen and (min-width: 1080px) {
+    width: 50px;
+  }
+`;
+
+export const LinkedInIconLink = styled.a`
+  width: 50px;
+
+  @media screen and (min-width: 1080px) {
+    width: 50px;
+  }
 `;
 
 export const TwitterIcon = styled.img`
-  width: 10vw;
+  width: 50px;
+
+  @media screen and (min-width: 1080px) {
+    width: 50px;
+  }
+`;
+
+export const TwitterIconLink = styled.a`
+  width: 50px;
+
+  @media screen and (min-width: 1080px) {
+    width: 50px;
+  }
 `;
 
 export const GithubIcon = styled.img`
-  width: 10vw;
+  width: 50px;
+
+  @media screen and (min-width: 1080px) {
+    width: 50px;
+  }
 `;
 
-export const DiscordIcon = styled.img`
-  width: 10vw;
+export const GithubIconLink = styled.a`
+  width: 50px;
+
+  @media screen and (min-width: 1080px) {
+    width: 50px;
+  }
 `;

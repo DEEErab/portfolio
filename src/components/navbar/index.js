@@ -40,20 +40,56 @@ export const Navbar = ({ toggle }) => {
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
-          {/* <NavMenu>
-          <NavItem>
-            <NavLink></NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink></NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink></NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink></NavLink>
-          </NavItem>
-        </NavMenu> */}
+          <NavMenu>
+            <NavItem>
+              <NavLink
+                to="about"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                _ABOUT ME
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                to="tech"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                TECH_
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                to="work"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                _MY WORK
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                to="contact"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                _CONTACT
+              </NavLink>
+            </NavItem>
+          </NavMenu>
         </NavContainer>
       </Nav>
     </>

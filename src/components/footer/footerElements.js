@@ -40,14 +40,6 @@ export const GithubIconLink = styled.a`
   width: 10vw;
 `;
 
-export const DiscordIcon = styled.img`
-  width: 10vw;
-`;
-
-export const DiscordIconLink = styled.a`
-  width: 10vw;
-`;
-
 export const CopyRight = styled.h1`
   margin-top: 20px;
   font-size: 1rem;

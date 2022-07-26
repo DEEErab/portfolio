@@ -6,7 +6,6 @@ import {
   MobileWrapper,
   MobileMenus,
   MobileLink,
-  SideBtnWrap,
 } from "./mobileMenuElements";
 
 const MobileMenu = ({ isOpen, toggle }) => {
@@ -28,9 +27,6 @@ const MobileMenu = ({ isOpen, toggle }) => {
           </MobileLink>
           <MobileLink to="contact" onClick={toggle}>
             CONTACT
-          </MobileLink>
-          <MobileLink to="home" onClick={toggle}>
-            HOME
           </MobileLink>
         </MobileMenus>
       </MobileWrapper>
