@@ -4,7 +4,7 @@ export const FooterContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 200px;
+  height: 150px;
   width: 100vw;
   background-color: #dd6e42;
 `;
@@ -17,27 +17,27 @@ export const Social = styled.div`
 `;
 
 export const LinkedInIcon = styled.img`
-  width: 10vw;
+  width: 50px;
 `;
 
 export const LinkedInIconLink = styled.a`
-  width: 10vw;
+  width: 50px;
 `;
 
 export const TwitterIcon = styled.img`
-  width: 10vw;
+  width: 50px;
 `;
 
 export const TwitterIconLink = styled.a`
-  width: 10vw;
+  width: 50px;
 `;
 
 export const GithubIcon = styled.img`
-  width: 10vw;
+  width: 50px;
 `;
 
 export const GithubIconLink = styled.a`
-  width: 10vw;
+  width: 50px;
 `;
 
 export const CopyRight = styled.h1`

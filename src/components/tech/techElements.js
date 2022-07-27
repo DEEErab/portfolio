@@ -8,7 +8,7 @@ export const TechContainer = styled.div`
   width: 100vw;
   background-color: #c0d6df;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     height: 400px;
   }
 `;
@@ -19,7 +19,7 @@ export const TechH1 = styled.h1`
   color: white;
   font-size: 2rem;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     margin-right: 600px;
   }
 `;
@@ -29,10 +29,10 @@ export const TechLogos = styled.div`
   padding-top: 50px;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 50px;
-  grid-row-gap: 80px;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
   }
 `;
 

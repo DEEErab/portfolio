@@ -5,7 +5,7 @@ export const InfoContainer = styled.div`
   width: 100vw;
   background-color: #e8dab2;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     height: 500px;
   }
 `;

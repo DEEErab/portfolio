@@ -34,7 +34,8 @@ export const ContactFormEmail = styled.input`
   margin-bottom: 60px;
 `;
 
-export const ContactFormMessage = styled.input`
+export const ContactFormMessage = styled.textarea`
+  text-align: start;
   width: 325px;
   height: 400px;
   border-radius: 10px;
@@ -57,5 +58,3 @@ export const MessageH1 = styled.h1`
   color: white;
   margin-right: 250px;
 `;
-
-export const SendButton = styled.button``;

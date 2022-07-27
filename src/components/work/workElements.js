@@ -4,7 +4,7 @@ export const WorkContainer = styled.div`
   height: 2000px;
   width: 100vw;
   background-color: #4f6d7a;
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     height: 800px;
   }
 `;
@@ -22,7 +22,7 @@ export const WorkRow = styled.div`
   grid-gap: 100px;
   place-items: center;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0;
   }
@@ -42,7 +42,7 @@ export const Column2 = styled.div`
   border-radius: 10px;
   background-color: white;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     margin-top: 120px;
   }
 `;
@@ -53,7 +53,7 @@ export const Column3 = styled.div`
   border-radius: 10px;
   background-color: white;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     margin-top: 120px;
   }
 `;

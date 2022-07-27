@@ -8,8 +8,14 @@ export const HeroContainer = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     flex-direction: row;
+  }
+`;
+
+export const NameWrap = styled.div`
+  @media screen and (min-width: 768px) {
+    margin-left: 75px;
   }
 `;
 
@@ -18,8 +24,8 @@ export const MobileHeroImg = styled.img`
   margin-right: 5vw;
   width: 70vw;
 
-  @media screen and (min-width: 1080px) {
-    max-width: 600px;
+  @media screen and (min-width: 768px) {
+    max-width: 400px;
   }
 `;
 
@@ -37,7 +43,7 @@ export const Social = styled.div`
   grid-row-gap: 40px;
   display: grid;
 
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 768px) {
     bottom: 1vh;
     right: 25vw;
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,7 +55,7 @@ export const Social = styled.div`
 export const LinkedInIcon = styled.img`
   width: 50px;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     width: 50px;
   }
 `;
@@ -57,7 +63,7 @@ export const LinkedInIcon = styled.img`
 export const LinkedInIconLink = styled.a`
   width: 50px;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     width: 50px;
   }
 `;
@@ -65,7 +71,7 @@ export const LinkedInIconLink = styled.a`
 export const TwitterIcon = styled.img`
   width: 50px;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     width: 50px;
   }
 `;
@@ -73,7 +79,7 @@ export const TwitterIcon = styled.img`
 export const TwitterIconLink = styled.a`
   width: 50px;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     width: 50px;
   }
 `;
@@ -81,7 +87,7 @@ export const TwitterIconLink = styled.a`
 export const GithubIcon = styled.img`
   width: 50px;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     width: 50px;
   }
 `;
@@ -89,7 +95,7 @@ export const GithubIcon = styled.img`
 export const GithubIconLink = styled.a`
   width: 50px;
 
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 768px) {
     width: 50px;
   }
 `;

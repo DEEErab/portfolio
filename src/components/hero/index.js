@@ -6,6 +6,7 @@ import githubLogo from "../../assets/social/github.svg";
 
 import {
   HeroContainer,
+  NameWrap,
   MobileHeroImg,
   NameTag,
   Social,
@@ -21,8 +22,10 @@ export const Hero = () => {
   return (
     <>
       <HeroContainer id="home">
-        <NameTag>DALTON PHILLIPS</NameTag>
-        <MobileHeroImg src={mobileImage}></MobileHeroImg>
+        <NameWrap>
+          <NameTag>DALTON PHILLIPS</NameTag>
+          <MobileHeroImg src={mobileImage}></MobileHeroImg>
+        </NameWrap>
         <Social>
           <LinkedInIconLink href="https://www.linkedin.com/in/dalton-phillips-4a7782156/">
             <LinkedInIcon src={linkedInLogo}></LinkedInIcon>
