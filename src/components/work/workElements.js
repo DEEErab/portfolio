@@ -20,6 +20,7 @@ export const WorkRow = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
+  grid-gap: 50px;
 
   @media screen and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;

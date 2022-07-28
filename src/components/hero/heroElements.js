@@ -114,3 +114,7 @@ export const GithubIconLink = styled.a`
     width: 50px;
   }
 `;
+
+export const Plane = styled.img``;
+
+export const Cloud1 = styled.img``;
