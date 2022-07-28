@@ -41,3 +41,30 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 1. Create a web server with at least one route and connect to it from your application using ExpressJS
 
 2. Implement a drag-and-drop interface that allows the user to move elements or items on the page around. For example, drag a file or image into the app from your desktop and have it display
+
+### reciving emails:
+
+Navigate to the server.js found in the main project directory. There you will find
+
+```
+const contactEmail = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: "temp12345@gmail.com",
+    pass: "temp12345",
+  },
+});
+```
+
+you will have to change the user and pass to your own email address and password. You will
+allso have to change the email found on line 36 to your own email address.
+
+```
+to: "temp12345@gmail.com",
+```
+
+Now run the server.js file in the terminal.
+
+`node server.js`
+
+if all is set up correctly the server will start will be able to receive emails to your email address from the contact form.

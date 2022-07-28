@@ -9,6 +9,8 @@ import {
   NameH1,
   EmailH1,
   MessageH1,
+  SubmitButton,
+  SubmitContainer,
 } from "./contactElements";
 
 export const Contact = () => {
@@ -51,7 +53,9 @@ export const Contact = () => {
           <ContactFormEmail type="email" id="email"></ContactFormEmail>
           <MessageH1 htmlFor="message">MESSAGE</MessageH1>
           <ContactFormMessage type="text" id="message"></ContactFormMessage>
-          <button type="submit">{status}</button>
+          <SubmitContainer>
+            <SubmitButton type="submit">{status}</SubmitButton>
+          </SubmitContainer>
         </ContactForm>
       </ContactContainer>
     </>

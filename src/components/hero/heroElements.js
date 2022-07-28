@@ -33,7 +33,7 @@ export const MobileHeroImg = styled.img`
 export const DesktopHeroImg = styled.img`
   margin-top: 75px;
   margin-right: 50px;
-  width: 1200px;
+  width: 800px;
 
   @media screen and (max-width: 768px) {
     display: none;

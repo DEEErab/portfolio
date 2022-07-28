@@ -62,3 +62,14 @@ export const MessageH1 = styled.h1`
   color: white;
   margin-right: 250px;
 `;
+
+export const SubmitContainer = styled.div`
+  text-align: center;
+`;
+
+export const SubmitButton = styled.button`
+  border-radius: 25px;
+  margin-top: 20px;
+  height: 25px;
+  width: 75px;
+`;

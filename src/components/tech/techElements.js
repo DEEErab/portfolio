@@ -29,10 +29,10 @@ export const TechLogos = styled.div`
   padding-top: 50px;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 50px;
+  grid-row-gap: 75px;
 
   @media screen and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 30px;
   }
 `;
 
