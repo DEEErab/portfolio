@@ -30,7 +30,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 # Feature list
 
-1. Create a form and save the values (on click of Submit button) to an external file.
+1. Create a web server with at least one route and connect to it from your application using ExpressJS
 
 2. Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
 
@@ -38,9 +38,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### possible features:
 
-1. Create a web server with at least one route and connect to it from your application using ExpressJS
+1. Implement a drag-and-drop interface that allows the user to move elements or items on the page around. For example, drag a file or image into the app from your desktop and have it display
 
-2. Implement a drag-and-drop interface that allows the user to move elements or items on the page around. For example, drag a file or image into the app from your desktop and have it display
+## #1, Create a web server with at least one route and connect to it from your application using ExpressJS
 
 ### reciving emails:
 
@@ -65,6 +65,47 @@ to: "temp12345@gmail.com",
 
 Now run the server.js file in the terminal.
 
-`node server.js`
+```
+node server.js
+```
 
 if all is set up correctly the server will start will be able to receive emails to your email address from the contact form.
+
+## #2, Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
+
+Email validation found in src/components/contact/index.js
+
+```
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState(null);
+
+  function isValidEmail(email) {
+    return /\S+@\S+\.\S+/.test(email);
+  }
+
+  const handleChange = (event) => {
+    if (!isValidEmail(event.target.value)) {
+      setError("Please enter a valid email address.");
+    } else {
+      setError(null);
+    }
+
+    setMessage(event.target.value);
+  };
+```
+
+HTML for the validation.
+
+```
+<ContactFormEmail
+  value={message}
+  onChange={handleChange}
+  type="email"
+  id="email"
+></ContactFormEmail>
+<ValidEmail>{error}</ValidEmail>
+```
+
+## #3, Develop your project using a common JavaScript framework such as React, Angular, Vue, etc.
+
+developed using React.js and styled-components.

@@ -5,6 +5,7 @@ import {
   ContactForm,
   ContactFormName,
   ContactFormEmail,
+  ValidEmail,
   ContactFormMessage,
   NameH1,
   EmailH1,
@@ -15,6 +16,23 @@ import {
 
 export const Contact = () => {
   const [status, setStatus] = useState("Submit");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState(null);
+
+  function isValidEmail(email) {
+    return /\S+@\S+\.\S+/.test(email);
+  }
+
+  const handleChange = (event) => {
+    if (!isValidEmail(event.target.value)) {
+      setError("Please enter a valid email address.");
+    } else {
+      setError(null);
+    }
+
+    setMessage(event.target.value);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
@@ -49,8 +67,15 @@ export const Contact = () => {
         <ContactForm onSubmit={handleSubmit}>
           <NameH1 htmlFor="name">NAME</NameH1>
           <ContactFormName type="text" id="name"></ContactFormName>
+
           <EmailH1 htmlFor="email">EMAIL</EmailH1>
-          <ContactFormEmail type="email" id="email"></ContactFormEmail>
+          <ContactFormEmail
+            value={message}
+            onChange={handleChange}
+            type="email"
+            id="email"
+          ></ContactFormEmail>
+          <ValidEmail>{error}</ValidEmail>
           <MessageH1 htmlFor="message">MESSAGE</MessageH1>
           <ContactFormMessage type="text" id="message"></ContactFormMessage>
           <SubmitContainer>

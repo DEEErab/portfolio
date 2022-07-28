@@ -31,7 +31,12 @@ export const ContactFormEmail = styled.input`
   width: 325px;
   height: 35px;
   border-radius: 10px;
-  margin-bottom: 60px;
+`;
+
+export const ValidEmail = styled.p`
+  margin-bottom: 30px;
+  padding-bottom: 0px;
+  color: red;
 `;
 
 export const ContactFormMessage = styled.textarea`
