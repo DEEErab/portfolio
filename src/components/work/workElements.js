@@ -19,12 +19,11 @@ export const WorkH1 = styled.h1`
 export const WorkRow = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 100px;
   place-items: center;
 
   @media screen and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0;
+    grid-gap: 50px;
   }
 `;
 
