@@ -1,5 +1,7 @@
 import React from "react";
+
 import mobileImage from "../../assets/logos/mobile.svg";
+import desktopImage from "../../assets/logos/desktop.svg";
 import linkedInLogo from "../../assets/social/linkedIn.svg";
 import twitterLogo from "../../assets/social/twitter.svg";
 import githubLogo from "../../assets/social/github.svg";
@@ -8,6 +10,7 @@ import {
   HeroContainer,
   NameWrap,
   MobileHeroImg,
+  DesktopHeroImg,
   NameTag,
   Social,
   LinkedInIcon,
@@ -25,6 +28,7 @@ export const Hero = () => {
         <NameWrap>
           <NameTag>DALTON PHILLIPS</NameTag>
           <MobileHeroImg src={mobileImage}></MobileHeroImg>
+          <DesktopHeroImg src={desktopImage}></DesktopHeroImg>
         </NameWrap>
         <Social>
           <LinkedInIconLink href="https://www.linkedin.com/in/dalton-phillips-4a7782156/">

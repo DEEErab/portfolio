@@ -14,26 +14,41 @@ export const HeroContainer = styled.div`
 `;
 
 export const NameWrap = styled.div`
+  margin-top: 300px;
   @media screen and (min-width: 768px) {
     margin-left: 75px;
   }
 `;
 
 export const MobileHeroImg = styled.img`
-  margin-top: 25vh;
-  margin-right: 5vw;
-  width: 70vw;
+  margin-top: 25px;
+  margin-right: 50px;
+  width: 300px;
 
   @media screen and (min-width: 768px) {
-    max-width: 400px;
+    display: none;
+  }
+`;
+
+export const DesktopHeroImg = styled.img`
+  margin-top: 75px;
+  margin-right: 50px;
+  width: 1200px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;
 
 export const NameTag = styled.h1`
-  margin-top: 20vh;
-  margin-right: 25vh;
+  margin-top: 75px;
+  margin-left: 20px;
   font-size: 1em;
   color: white;
+
+  @media screen and (min-width: 768px) {
+    font-size: 2em;
+  }
 `;
 
 export const Social = styled.div`

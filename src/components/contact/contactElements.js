@@ -17,7 +17,7 @@ export const ContactH1 = styled.h1`
 `;
 
 export const ContactForm = styled.form`
-  text-align: center;
+  text-align: left;
 `;
 
 export const ContactFormName = styled.input`
@@ -39,6 +39,10 @@ export const ContactFormMessage = styled.textarea`
   width: 325px;
   height: 400px;
   border-radius: 10px;
+
+  @media screen and (min-width: 768px) {
+    width: 800px;
+  }
 `;
 
 export const NameH1 = styled.h1`
