@@ -46,12 +46,17 @@ const contactEmail = nodemailer.createTransport({
 });
 ```
 
-you will have to change the user and pass to your own email address and password. You will
-allso have to change the email found on line 36 to your own email address.
+you will have to change the user and pass to your own email address and password.
+
+You will also have to change the email found on line 36 to your own email address.
 
 ```
 to: "temp12345@gmail.com",
 ```
+
+If you choose to use Gmail, you will need to enable less secure apps in your Gmail account. Or create a app sepecific password. You can learn how to do that here: [https://support.google.com/mail/answer/185833?hl=en](https://support.google.com/mail/answer/185833?hl=en)
+
+If you would like to use a different email service, you can use any service that supports the SMTP protocol. you can learn how to do that here: [https://nodemailer.com/smtp/](https://nodemailer.com/smtp/)
 
 Now run the server.js file in the terminal.
 
