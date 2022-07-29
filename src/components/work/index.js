@@ -25,9 +25,8 @@ export const Work = () => {
           <Planet src={planet}></Planet>
           <Satellite src={satellite}></Satellite>
         </Container>
-
+        <WorkH1>_MY WORK</WorkH1>
         <InfoContainer>
-          <WorkH1>_MY WORK</WorkH1>
           <WorkRow>
             <Column1></Column1>
             <Column2></Column2>

@@ -22,12 +22,13 @@ export const WorkRow = styled.div`
   margin-left: 40px;
   display: grid;
   grid-template-columns: 1fr;
-  place-items: center;
+  justify-items: center;
   grid-gap: 50px;
 
   @media screen and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
+    margin-top: 100px;
   }
 `;
 
@@ -37,6 +38,10 @@ export const Column1 = styled.div`
   width: 300px;
   border-radius: 10px;
   background-color: white;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0px;
+  }
 `;
 
 export const Column2 = styled.div`
@@ -44,10 +49,6 @@ export const Column2 = styled.div`
   width: 300px;
   border-radius: 10px;
   background-color: white;
-
-  @media screen and (min-width: 768px) {
-    margin-top: 120px;
-  }
 `;
 
 export const Column3 = styled.div`
@@ -55,10 +56,6 @@ export const Column3 = styled.div`
   width: 300px;
   border-radius: 10px;
   background-color: white;
-
-  @media screen and (min-width: 768px) {
-    margin-top: 120px;
-  }
 `;
 
 export const Container = styled.div`
@@ -69,7 +66,7 @@ export const Container = styled.div`
 export const SolidLine = styled.img`
   position: absolute;
   top: 0;
-  margin-left: 250px;
+  left: 250px;
 `;
 
 export const Planet = styled.img`
@@ -77,11 +74,12 @@ export const Planet = styled.img`
   width: 500px;
   position: absolute;
   padding-top: 100px;
-  margin-right: 20px;
+  left: 5px;
 `;
 
 export const InfoContainer = styled.div`
   position: absolute;
+  width: 100vw;
 `;
 
 export const Satellite = styled.img`
@@ -89,4 +87,9 @@ export const Satellite = styled.img`
   width: 250px;
   position: absolute;
   margin-left: 200px;
+
+  @media screen and (min-width: 768px) {
+    bottom: 0;
+    left: 60vw;
+  }
 `;

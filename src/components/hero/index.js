@@ -31,6 +31,8 @@ import {
   Line1,
   Line2,
   Line3,
+  Line4,
+  Line5,
 } from "./heroElements";
 
 export const Hero = () => {
@@ -39,9 +41,13 @@ export const Hero = () => {
       <HeroContainer id="home">
         <Line1 src={line}></Line1>
         <Cloud1 src={cloud1}></Cloud1>
+
         <Line2 src={line}></Line2>
-        <Cloud2 src={cloud2}></Cloud2>
         <Line3 src={line}></Line3>
+        <Cloud2 src={cloud2}></Cloud2>
+
+        <Line4 src={line}></Line4>
+        <Line5 src={line}></Line5>
         <Cloud3 src={cloud3}></Cloud3>
 
         <NameWrap>
@@ -49,7 +55,6 @@ export const Hero = () => {
           <MobileHeroImg src={mobileImage}></MobileHeroImg>
           <DesktopHeroImg src={desktopImage}></DesktopHeroImg>
         </NameWrap>
-
         <Plane src={plane}></Plane>
 
         <Social>

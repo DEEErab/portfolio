@@ -14,7 +14,7 @@ export const HeroContainer = styled.div`
 `;
 
 export const NameWrap = styled.div`
-  margin-top: 20px;
+  margin-top: 10vh;
 
   @media screen and (min-width: 768px) {
     margin-left: 75px;
@@ -74,50 +74,26 @@ export const Social = styled.div`
 
 export const LinkedInIcon = styled.img`
   width: 50px;
-
-  @media screen and (min-width: 768px) {
-    width: 50px;
-  }
 `;
 
 export const LinkedInIconLink = styled.a`
   width: 50px;
-
-  @media screen and (min-width: 768px) {
-    width: 50px;
-  }
 `;
 
 export const TwitterIcon = styled.img`
   width: 50px;
-
-  @media screen and (min-width: 768px) {
-    width: 50px;
-  }
 `;
 
 export const TwitterIconLink = styled.a`
   width: 50px;
-
-  @media screen and (min-width: 768px) {
-    width: 50px;
-  }
 `;
 
 export const GithubIcon = styled.img`
   width: 50px;
-
-  @media screen and (min-width: 768px) {
-    width: 50px;
-  }
 `;
 
 export const GithubIconLink = styled.a`
   width: 50px;
-
-  @media screen and (min-width: 768px) {
-    width: 50px;
-  }
 `;
 
 export const Plane = styled.img`
@@ -137,42 +113,104 @@ export const Cloud1 = styled.img`
   width: 200px;
 
   @media screen and (min-width: 768px) {
-    margin-left: 600px;
+    display: block;
+    width: 200px;
+    top: 250px;
+    left: 900px;
+    position: absolute;
   }
 `;
 
 export const Cloud2 = styled.img`
-  @media screen and (max-width: 768px) {
-    display: none;
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 400px;
+    top: 230px;
+    left: 375px;
+    position: absolute;
   }
 `;
 
 export const Cloud3 = styled.img`
-  @media screen and (max-width: 768px) {
-    display: none;
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 300px;
+    top: 330px;
+    right: 10px;
+    position: absolute;
   }
 `;
 
 export const Line1 = styled.img`
+  background-color: black;
   margin-left: 150px;
 
   @media screen and (min-width: 768px) {
-    margin-left: 600px;
+    display: block;
+    top: 0;
+    left: 1000px;
+    position: absolute;
+    width: 2px;
+    height: 250px;
   }
 `;
 
 export const Line2 = styled.img`
-  margin-left: 150px;
+  display: none;
 
-  @media screen and (max-width: 768px) {
-    display: none;
+  @media screen and (min-width: 768px) {
+    background-color: black;
+    display: block;
+    top: 0;
+    left: 400px;
+    position: absolute;
+    width: 2px;
+    height: 345px;
   }
 `;
 
 export const Line3 = styled.img`
-  margin-left: 150px;
+  display: none;
 
-  @media screen and (max-width: 768px) {
-    display: none;
+  @media screen and (min-width: 768px) {
+    background-color: black;
+    display: block;
+    top: 0;
+    left: 700px;
+    position: absolute;
+    width: 2px;
+    height: 325px;
+  }
+`;
+
+export const Line4 = styled.img`
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    background-color: black;
+    display: block;
+    top: 0;
+    right: 250px;
+    position: absolute;
+    width: 2px;
+    height: 425px;
+  }
+`;
+
+export const Line5 = styled.img`
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    background-color: black;
+    display: block;
+    top: 0;
+    right: 50px;
+    position: absolute;
+    width: 2px;
+    height: 425px;
   }
 `;
