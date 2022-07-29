@@ -9,14 +9,18 @@ export const HeroContainer = styled.div`
   align-items: center;
 
   @media screen and (min-width: 768px) {
-    flex-direction: row;
+    justify-content: start;
   }
 `;
 
 export const NameWrap = styled.div`
-  margin-top: 300px;
+  margin-top: 20px;
+
   @media screen and (min-width: 768px) {
     margin-left: 75px;
+    left: 5vw;
+    top: 30vh;
+    position: absolute;
   }
 `;
 
@@ -41,7 +45,7 @@ export const DesktopHeroImg = styled.img`
 `;
 
 export const NameTag = styled.h1`
-  margin-top: 75px;
+  margin-top: 5px;
   margin-left: 20px;
   font-size: 1em;
   color: white;
@@ -57,6 +61,7 @@ export const Social = styled.div`
   grid-template-columns: 1fr;
   grid-row-gap: 40px;
   display: grid;
+  margin-top: 400px;
 
   @media screen and (max-width: 768px) {
     bottom: 1vh;
@@ -115,6 +120,59 @@ export const GithubIconLink = styled.a`
   }
 `;
 
-export const Plane = styled.img``;
+export const Plane = styled.img`
+  margin-left: 75px;
+  width: 250px;
 
-export const Cloud1 = styled.img``;
+  @media screen and (min-width: 768px) {
+    width: 300px;
+    top: 70vh;
+    left: 70vw;
+    position: absolute;
+  }
+`;
+
+export const Cloud1 = styled.img`
+  margin-left: 150px;
+  width: 200px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 600px;
+  }
+`;
+
+export const Cloud2 = styled.img`
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const Cloud3 = styled.img`
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const Line1 = styled.img`
+  margin-left: 150px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 600px;
+  }
+`;
+
+export const Line2 = styled.img`
+  margin-left: 150px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const Line3 = styled.img`
+  margin-left: 150px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
