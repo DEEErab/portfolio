@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### To start to project
 
 In the project directory, you can run:
 
@@ -17,16 +17,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 # Feature list
 
@@ -109,3 +99,8 @@ HTML for the validation.
 ## #3, Develop your project using a common JavaScript framework such as React, Angular, Vue, etc.
 
 developed using React.js and styled-components.
+
+## Future updates:
+
+1. decide what projects should be added
+2. write content for the about section
