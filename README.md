@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ### To start the project
 
 In the project directory, you can run:
@@ -17,6 +13,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+#My Project
+The goal of my project is to be able to have a website that I can use to display my work to potental clients/employers. Creating this website was challenging and a learning experince. This was my first time really creating something that has a back-end. And my first time getting into react.js. I overall enjoyed it, and will be creating art and decideing what projects to display in the work section ASAP.
 
 # Feature list
 
