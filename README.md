@@ -14,10 +14,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-#My Project
+### My Project
 The goal of my project is to be able to have a website that I can use to display my work to potental clients/employers. Creating this website was challenging and a learning experince. This was my first time really creating something that has a back-end. And my first time getting into react.js. I overall enjoyed it, and will be creating art and decideing what projects to display in the work section ASAP.
 
-# Feature list
+## Feature list
 
 1. Create a web server with at least one route and connect to it from your application using ExpressJS
 
@@ -25,7 +25,7 @@ The goal of my project is to be able to have a website that I can use to display
 
 3. Develop your project using a common JavaScript framework such as React, Angular, Vue, etc.
 
-### possible features:
+# possible features:
 
 1. Implement a drag-and-drop interface that allows the user to move elements or items on the page around. For example, drag a file or image into the app from your desktop and have it display
 
